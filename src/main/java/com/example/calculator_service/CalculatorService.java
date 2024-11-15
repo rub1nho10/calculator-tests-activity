@@ -14,12 +14,12 @@ public class CalculatorService {
         return a * b;
     }
 
-    public double divide(int a, int b){
+    public double divide(double a, double b){
 
-        if(b == 0){
+        if(b == 0.0){
             throw new ArithmeticException("Cannot divide by zero");
         }
 
-        return (double) a / b;
+        return a / b;
     }
 }

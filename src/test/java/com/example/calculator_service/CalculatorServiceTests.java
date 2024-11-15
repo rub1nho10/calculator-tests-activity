@@ -16,17 +16,22 @@ public class CalculatorServiceTests {
 
     @Test
     void testSub(){
-        assertEquals(4, calculatorService.sub(10, 6));
+        assertEquals(2, calculatorService.sub(5, 3));
     }
 
     @Test
     void testMultiply(){
-        assertEquals(20, calculatorService.multiply(5, 4));
+        assertEquals(12, calculatorService.multiply(4, 3));
     }
 
     @Test
     void testDivision(){
-        assertEquals(2.5, calculatorService.divide(5, 2));
+        assertEquals(5.0, calculatorService.divide(10, 2));
+    }
+
+    @Test
+    void testFractionDivision(){
+        assertEquals(20, calculatorService.divide(10, 0.5));
     }
 
     @Test
