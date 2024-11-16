@@ -1,7 +1,7 @@
 # Resolução Atividade de implementação de testes Unitários com JUnit
 
 ### Aluno:
-Alessandro de Lucena Silva - 01613750
+Jadenilson Rubem Silva de Lima - 01636174
 
 ## Perguntas:
 
